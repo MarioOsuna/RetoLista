@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Resto Lista</string>
+    <string name="lista">Lista de la compra</string>
+    <string name="comprar">Comprar</string>
+    <string name="Agregar">Agregar elemento</string>
+    <string name="visualizar">Visualizar lista</string>
+    <string name="Producto_comprar">¿Qué comprar?</string>
+    <string name="tienda">Tienda</string>
+    <string name="buscar">Buscar Tienda</string>
+    <string name="Lista">Lista de la compra</string>
+</resources>
