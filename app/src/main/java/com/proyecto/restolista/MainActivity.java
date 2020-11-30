@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         mapa = findViewById(R.id.editTextTienda);
         buscar_mapa = findViewById(R.id.buttonBuscarTienda);
 
-        Toast.makeText(this, "Elementos añadidos: " + datos.lista_productos.size(), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Elementos añadidos: " + datos.lista_productos.size(), Toast.LENGTH_SHORT).show();
 
 
         agregar.setOnClickListener(new View.OnClickListener() {
@@ -38,13 +38,13 @@ public class MainActivity extends AppCompatActivity {
 
                 if (!producto.getText().toString().equals(" ")) {
 
-                    if (datos.lista_productos.size() >= 10) {
+                   /* if (datos.lista_productos.size() >= 10) {
                         Toast.makeText(MainActivity.this, "Ya se han añadido 10 productos", Toast.LENGTH_SHORT).show();
-                    } else {
+                    } else {*/
                         datos.lista_productos.add(producto.getText().toString());
 
                         Toast.makeText(MainActivity.this, "Se ha añadido el producto: " + producto.getText().toString(), Toast.LENGTH_SHORT).show();
-                    }
+                   // }
 
                 } else {
                     Toast.makeText(MainActivity.this, "Introduzca un producto para añadir a la lista", Toast.LENGTH_SHORT).show();
